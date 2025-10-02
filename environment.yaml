@@ -1,0 +1,19 @@
+name: ais-nn
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.11
+  - jupyterlab  # frontend
+  - ipykernel  # backend
+  - ipywidgets
+  - ipympl
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - pytorch
+  - torchvision
+  - pip:
+    - tensorflow
