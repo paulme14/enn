@@ -8,9 +8,15 @@ By the end of this Python introduction, we will have covered the following:
 * **Perform data processing** using [NumPy](https://numpy.org/)
 * **Perform data visualization** using [Matplotlib](https://matplotlib.org/)
 
+## Task Description
+
+For this week you are tasked to solve the Jupyter Notebook called homework. That notebook contains various exercises related to the field of machine learning and data science. With those skills in your pocket, you are well prepared to solve further homeworks and the assignments.
+
+Good Luck and much Fun!!
+
 ## Additional Resources
 
-This week covers Data Science fundamentals, but you can continue learning with these resources:
+The fundamentals are covered with the Notebooks provided, however, if you wanna dig deeper into the field of data sciene, we highly recommend the following resources:
 
 ### Python Resources
 - [Python 3.11+ Documentation](https://docs.python.org/3/) - Comprehensive official documentation
@@ -28,81 +34,19 @@ This week covers Data Science fundamentals, but you can continue learning with t
 - [Matplotlib Gallery](https://matplotlib.org/stable/gallery/index.html) - Example plots with code
 - [Matplotlib Cheat Sheets](https://matplotlib.org/cheatsheets/) - Quick reference guides
 
-</br>
-</br>
-</br>
 
-# Setup and Installation
 
-This section describes how to set up the Python environment needed for this course.
+## Further Information
 
-## Python Environment Options
-
-You have several options to get started with Python for this course:
-
-### Option 1: JupyterHub (Recommended for Beginners)
-The easiest way to get started is using the University's JupyterHub:
-- Access the JupyterHub platform with your university credentials
-- All necessary packages are pre-installed
-- No local setup required
-- Ideal for getting started quickly
-
-### Option 2: Local Installation
-For a more flexible development environment, install Python locally on your computer.
-
-#### Conda Installation
-We recommend using **conda** for package management:
-
-1. **Install Miniconda** (minimal conda installer):
-   - Download from [Miniconda.org](https://docs.conda.io/en/latest/miniconda.html)
-   - Choose your operating system (Windows, macOS, or Linux)
-   - Follow the installation instructions
-
-2. **Create the course environment**:
-   ```bash
-   # Using the provided environment.yaml file
-   conda env create -f environment.yaml
-   conda activate ais-nn
-   ```
-
-## Verifying Your Installation
-
-### Test Your Conda Installation
-Open a new terminal (macOS/Linux) or Command Prompt (Windows) and verify conda is working:
-
-```bash
-conda --version
-```
-
-### Activate the Course Environment
-**Important**: You must activate the course environment before using Python for this course:
-
-```bash
-# Activate the course environment (do this every time you start working)
-conda activate ais-nn
-
-# Now test Python and packages
-python --version  # Should show Python 3.11 or later
-python -c "import numpy, matplotlib, jupyter; print('All packages imported successfully!')"
-```
-
-> **💡 Remember**: You need to run `conda activate ais-nn` every time you open a new terminal to work on the course materials!
-
-</br>
-</br>
-</br>
-
-# Further Information
-
-## Getting the Materials
+### Getting the Materials
 The course materials are organized in this repository. We will update the content according to the lecture schedule.
 
-## During the Course
+### During the Course
 - Ask questions during sessions
 - Use the course discussion forum [Mattermost](https://mattermost.uni-muenster.de/signup_user_complete/?id=egospupx5pd7jdjwzsg3zkfish&md=link&sbr=su)
 - Work with your peers in study groups
 
-## Online Resources
+### Online Resources
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/python) - Community Q&A
 - [Python.org Community](https://www.python.org/community/) - Official community resources
 - [Real Python](https://realpython.com/) - High-quality Python tutorials
