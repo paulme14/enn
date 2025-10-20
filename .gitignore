@@ -1,2 +1,27 @@
 **/.ipynb_checkpoints
 .vscode/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# VS Code settings
+.vscode/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints
+
+# macOS & Windows system files
+.DS_Store
+Thumbs.db
+
+// Ignore GitHub config folder (actions, workflows, or agent metadata)
+/.github/
+
+
