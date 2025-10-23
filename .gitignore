@@ -1,2 +1,8 @@
 **/.ipynb_checkpoints
 .vscode/
+
+
+# Janoschs folders to be ignored
+_drl-deep-course/
+_lecture/
+_nn-exercise-bochum/
